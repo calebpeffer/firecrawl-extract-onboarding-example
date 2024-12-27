@@ -148,7 +148,7 @@ export default function OnboardingForm({
         {/* Theme Colors Section */}
         <div className="grid grid-cols-3 gap-4 mb-8">
           <div>
-            <label className="block text-sm font-semibold text-gray-800 mb-2">Primary Color</label>
+            <label className="block text-sm font-semibold text-gray-800 mb-2">Primary Color</label> 
             <input
               type="color"
               value={themeColors.primary}
